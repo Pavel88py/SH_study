@@ -1,0 +1,5 @@
+<form method = "post" action = "/user/login/" > {% csrf_token %}
+	<input type = "text" name = "login" value = "" placeholder = "Логин">
+	<input type = "password" name = "password" value = "" placeholder = "Пароль">
+	<button type = "submit" class = "btn btndefault"> Send </button>
+</form>
